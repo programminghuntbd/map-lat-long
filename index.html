@@ -9,8 +9,8 @@
 <body>
     <script>
         navigator.geolocation.getCurrentPosition(function(position){
-            document.write(position.coords.latitude+"<br>");
-            document.write(position.coords.longitude+"<br>");
+            document.write("Latitude: "+position.coords.latitude+"<br>");
+            document.write("Longitude: "+position.coords.longitude+"<br>");
         });
     </script>
 </body>
